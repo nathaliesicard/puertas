@@ -11,13 +11,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:nathaliesicard/chibichow.git"
+    "url": "git@github.com:nathaliesicard/puertas.git"
   },
   "author": "Nathalie Sicard",
   "bugs": {
-    "url": "https://github.com/nathaliesicard/chibichow/issues"
+    "url": "https://github.com/nathaliesicard/puertas/issues"
   },
-  "homepage": "https://github.com/nathaliesicard/chibichow",
+  "homepage": "https://github.com/nathaliesicard/puertas",
   "dependencies": {
     "koa": "^0.18.1",
     "koa-body-parser": "^1.1.1",

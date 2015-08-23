@@ -11,10 +11,6 @@ app.use(gzip());
 app.use(static('public'));
 app.use(bodyParser());
 
-router.get('/blog', function*(){
-    return this.response.redirect('/blog/index.html');
-});
-
 
 var transporter = nodemailer.createTransport(smtpTransport({
     port: 587,
