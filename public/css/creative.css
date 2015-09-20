@@ -613,3 +613,7 @@ height: 0;
 .social .fa-youtube-play:hover {
     background: #DF192A;
 }
+
+.orange-text {
+    color: #f05f40;
+}
