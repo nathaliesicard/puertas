@@ -78,7 +78,7 @@ aside {
 
 .navbar-default {
     border-color: rgba(34,34,34,.05);
-    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     background-color: #fff;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
@@ -126,6 +126,8 @@ aside {
 @media(min-width:768px) {
     .navbar-default {
         background-color: transparent;
+        border-width: 0 0 0px;
+
     }
 
     .navbar-default .navbar-header .navbar-brand {
@@ -136,8 +138,8 @@ aside {
     .navbar-default .navbar-header .navbar-brand:focus {
         color: #fff;
     }
-    .navbar-default.affix-top {
-           margin-top: 15px;
+    .affix-top {
+           margin-top: 0px;
        }
 
     /*make the logo bigger smoothly*/
@@ -170,6 +172,10 @@ aside {
     }
 
 
+    .navbar.affix-top {
+
+        padding-top: 15px;
+    }
 
     .navbar-default.affix {
 
@@ -204,7 +210,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/cover.jpg);
+    background-image: url(../img/cover2.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
