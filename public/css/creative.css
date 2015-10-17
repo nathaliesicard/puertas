@@ -138,17 +138,9 @@ font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     .navbar-default .navbar-header .navbar-brand:focus {
         color: #fff;
     }
-    .affix-top {
-           margin-top: 0px;
-       }
 
-    /*make the logo bigger smoothly*/
-    .navbar-default img {
-        -webkit-transition: all .3s;
-        -moz-transition: all .3s;
-        transition: all .3s;
-    }
-/*end*/
+
+
 
 
 .affix img {
