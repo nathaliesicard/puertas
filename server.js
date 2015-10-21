@@ -33,7 +33,8 @@ var paths = {
    '/artisticos': 'artisticos',
    '/contacto': 'contacto',
    '/enviado': 'enviado',
-   '/products': 'products'
+   '/products': 'products',
+   '/ventanas': 'ventanas'
 };
 
 Object.keys(paths).forEach(function(path) {
