@@ -649,3 +649,29 @@ height: 0;
 .orange-text {
     color: #f05f40;
 }
+
+.btn-prim {
+    border-color: #efdecd;
+    color: #fff;
+    background-color: #efdecd;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
+
+.btn-prim:hover,
+.btn-prim:focus,
+.btn-prim.focus,
+.btn-prim:active,
+.btn-prim.active,
+.open > .dropdown-toggle.btn-prim {
+    border-color: #e3c5a6;
+    color: #fff;
+    background-color: #e3c5a6;
+}
+
+.btn-prim:active,
+.btn-prim.active,
+.open > .dropdown-toggle.btn-prim {
+    background-image: none;
+}

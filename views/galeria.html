@@ -1,0 +1,82 @@
+{% extends "views/main.html" %}
+{% block css %}
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="pgwslideshow/pgwslideshow.min.css" type="text/css">
+{% endblock %}
+
+
+{% block content %}
+<section>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 col-lg-offset-1 text-center">
+              <h2 class="section-heading">Galería - Puertas de Entrada</h2>
+              <hr class="light">
+            </div></div>
+          <div class="row">
+<ul class="pgwSlideshow">
+    <li><img src="img/web/entrada1.jpg" alt=""></li>
+    <li><img src="img/web/entrada2.jpg" alt=""></li>
+    <li><img src="img/web/entrada3.jpg" alt=""></li>
+    <li><img src="img/web/entrada4.jpg" alt=""></li>
+    <li><img src="img/web/entrada5.jpg" alt=""></li>
+    <li><img src="img/web/entrada6.jpg" alt=""></li>
+    <li><img src="img/web/entrada7.jpg" alt=""></li>
+    <li><img src="img/web/entrada8.jpg" alt=""></li>
+    <li><img src="img/web/entrada9.jpg" alt=""></li>
+    <li><img src="img/web/entrada10.jpg" alt=""></li>
+    <li><img src="img/web/entrada11.jpg" alt=""></li>
+    <li><img src="img/web/entrada12.jpg" alt=""></li>
+</ul>
+</div>
+</div>
+<br>
+<div class="container">
+
+<br>
+<div class="row">
+  <div class="btn-toolbar" role="toolbar" aria-label="...">
+    <div class="col-lg-2 text-center">
+      <a href="/galeria" class="btn btn-primary btn-xl page-scroll">Entrada</a>
+  </div>
+  <div class="col-lg-2 text-center">
+    <a href="/galeria-interior" class="btn btn-prim btn-xl page-scroll">Interior</a>
+</div>
+<div class="col-lg-2 text-center">
+  <a href="/galeria-cocina" class="btn btn-prim btn-xl page-scroll">Cocina</a>
+</div>
+<div class="col-lg-2 text-center">
+  <a href="/galeria-vitrales" class="btn btn-prim btn-xl page-scroll">Vitrales</a>
+</div>
+<div class="col-lg-2 text-center">
+  <a href="/artisticos" class="btn btn-prim btn-xl page-scroll">Artísticos</a>
+</div>
+<div class="col-lg-2 text-center">
+  <a href="/ventanas" class="btn btn-prim btn-xl page-scroll">Ventanas</a>
+</div>
+
+
+</div>
+
+      </div></div>
+
+</section>
+{% endblock %}
+
+{% block scripts %}
+<!-- Custom Theme JavaScript -->
+<script>
+$(document).ready(function() {
+    $('.pgwSlideshow').pgwSlideshow({
+      transitionEffect : 'fading',
+      maxHeight : 480,
+    }
+    );
+});
+</script>
+<script src="pgwslideshow/pgwslideshow.min.js"></script>
+
+{% endblock %}

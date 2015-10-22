@@ -34,6 +34,12 @@ var paths = {
    '/contacto': 'contacto',
    '/enviado': 'enviado',
    '/products': 'products',
+   '/galeria': 'galeria',
+   '/galeria-interior': 'galeria-interior',
+   '/galeria-cocina': 'galeria-cocina',
+   '/galeria-vitrales': 'galeria-vitrales',
+   '/galeria-artisticos': 'galeria-artisticos',
+   '/galeria-ventanas': 'galeria-ventanas',
    '/ventanas': 'ventanas'
 };
 

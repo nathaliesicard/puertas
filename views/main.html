@@ -26,12 +26,17 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/creative.css" type="text/css">
 
+    {% block css %}
+<!-- Custom CSS -->
+    {% endblock %}
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
     <link rel="shortcut icon" href="img/carpintero.ico">
 </head>
 
@@ -69,7 +74,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Productos <span class="caret"></span></a>
                         <ul class="dropdown-menu dropdown-menu-left">
                             <li><a href="/entrada">Puertas de Entrada</a></li>
-                            <li><a href="/intercomunicacion">Puertas de Intercomunicación</a></li>
+                            <li><a href="/intercomunicacion">Puertas de Interior</a></li>
                             <li><a href="/cocina">Puertas de Cocina</a></li>
                             <li role="separator" class="divider"></li>
                             <li><a href="/vitrales">Vitrales</a></li>
@@ -79,6 +84,9 @@
                         </ul></li>
                     <li>
                         <a class="page-scroll" href="/#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/galeria">Galería</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="/#about">Nosotros</a>
