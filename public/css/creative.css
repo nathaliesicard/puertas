@@ -651,9 +651,9 @@ height: 0;
 }
 
 .btn-prim {
-    border-color: #efdecd;
+    border-color: #8c7157;
     color: #fff;
-    background-color: #efdecd;
+    background-color: #8c7157;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -665,9 +665,9 @@ height: 0;
 .btn-prim:active,
 .btn-prim.active,
 .open > .dropdown-toggle.btn-prim {
-    border-color: #e3c5a6;
+    border-color: #704E2E;
     color: #fff;
-    background-color: #e3c5a6;
+    background-color: #704E2E;
 }
 
 .btn-prim:active,
