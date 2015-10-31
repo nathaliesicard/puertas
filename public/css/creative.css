@@ -210,7 +210,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/cover2.jpg);
+    background-image: url(../img/cover/cover3.jpg);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -261,6 +261,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
+        margin-top: 150px;
     }
 
     header .header-content .header-content-inner p {
@@ -268,6 +269,7 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 80%;
         font-size: 18px;
+        margin-bottom: 25px;
     }
 }
 
@@ -674,4 +676,22 @@ height: 0;
 .btn-prim.active,
 .open > .dropdown-toggle.btn-prim {
     background-image: none;
+}
+
+.transparent-well {
+  background-color: rgba(105, 88, 95, 0.2);
+  padding-top: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+
+
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: transparent;
+  color: #f05f40;
+}
+
+.navbar-right {
+  background-color: rgba(105, 88, 95, 0.2);
 }
